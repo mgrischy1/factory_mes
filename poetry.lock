@@ -1,0 +1,63 @@
+[[package]]
+name = "mysql-connector-python"
+version = "8.0.30"
+description = "MySQL driver written in Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+protobuf = ">=3.11.0,<=3.20.1"
+
+[package.extras]
+compression = ["lz4 (>=2.1.6,<=3.1.3)", "zstandard (>=0.12.0,<=0.15.2)"]
+dns-srv = ["dnspython (>=1.16.0,<=2.1.0)"]
+gssapi = ["gssapi (>=1.6.9,<=1.7.3)"]
+
+[[package]]
+name = "protobuf"
+version = "3.20.1"
+description = "Protocol Buffers"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "pyqt5"
+version = "5.15.7"
+description = "Python bindings for the Qt cross platform application toolkit"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+PyQt5-Qt5 = ">=5.15.0"
+PyQt5-sip = ">=12.11,<13"
+
+[[package]]
+name = "pyqt5-qt5"
+version = "5.15.2"
+description = "The subset of a Qt installation needed by PyQt5."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pyqt5-sip"
+version = "12.11.0"
+description = "The sip module support for PyQt5"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "92e7c5416103fba776a8052ad3f581dc228364ba242a92a8f90a4118a93c0666"
+
+[metadata.files]
+mysql-connector-python = []
+protobuf = []
+pyqt5 = []
+pyqt5-qt5 = []
+pyqt5-sip = []
